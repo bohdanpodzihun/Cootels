@@ -1,0 +1,221 @@
+@import "https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap";
+header {
+  max-width: 1440px;
+  max-height: 120px;
+  margin: 0 auto; }
+  @media (max-width: 1440px) {
+    header {
+      max-width: 970px; } }
+  @media (max-width: 992px) {
+    header {
+      max-width: 750px; } }
+  @media (max-width: 768px) {
+    header {
+      max-width: 550px; } }
+  @media (max-width: 576px) {
+    header {
+      max-width: none; } }
+  header .header {
+    max-width: 1200px;
+    max-height: 70px;
+    margin: 0 auto;
+    margin-top: 37px;
+    margin-bottom: 35px; }
+    @media (max-width: 576px) {
+      header .header {
+        display: flex;
+        justify-content: center; } }
+  header .header-flex {
+    display: flex;
+    justify-content: space-between; }
+    @media (max-width: 768px) {
+      header .header-flex {
+        justify-content: space-evenly; } }
+    @media (max-width: 576px) {
+      header .header-flex {
+        display: block; } }
+  header .header-flex-item:first-child {
+    margin-top: 9px; }
+    @media (max-width: 576px) {
+      header .header-flex-item:first-child {
+        margin-bottom: 10px; } }
+  header .header-flex-item #menu {
+    display: none; }
+  @media (max-width: 768px) {
+    header .header-flex-item menu {
+      display: none; }
+    header .header-flex-item #menu {
+      display: block;
+      z-index: 2; }
+    header .header-flex-item #menu-bar {
+      width: 45px;
+      height: 40px;
+      margin: 58px 0 20px 20px;
+      cursor: pointer; }
+    header .header-flex-item .bar {
+      height: 5px;
+      width: 100%;
+      background-color: #444444;
+      display: block;
+      border-radius: 5px;
+      transition: 0.3s ease; }
+    header .header-flex-item #bar1 {
+      transform: translateY(-4px); }
+    header .header-flex-item #bar3 {
+      transform: translateY(4px); }
+    header .header-flex-item .nav {
+      transition: 0.3s ease;
+      display: none; }
+    header .header-flex-item .nav ul {
+      padding: 0 22px; }
+    header .header-flex-item .nav li {
+      list-style: none;
+      padding: 12px 0; }
+    header .header-flex-item .nav li a {
+      color: white;
+      font-size: 20px;
+      text-decoration: none; }
+    header .header-flex-item .nav li a:hover {
+      font-weight: bold; }
+    header .header-flex-item .menu-bg,
+    header .header-flex-item #menu {
+      top: 0;
+      left: 0;
+      position: absolute; }
+    header .header-flex-item .menu-bg {
+      z-index: 1;
+      width: 0;
+      height: 0;
+      margin: 30px 0 20px 20px;
+      background: radial-gradient(circle, #f18425, #ed98294d);
+      border-radius: 50%;
+      transition: 0.3s ease; }
+    header .header-flex-item .change {
+      display: block; }
+    header .header-flex-item .change .bar {
+      background-color: white; }
+    header .header-flex-item .change #bar1 {
+      transform: translateY(4px) rotateZ(-45deg); }
+    header .header-flex-item .change #bar2 {
+      opacity: 0; }
+    header .header-flex-item .change #bar3 {
+      transform: translateY(-6px) rotateZ(45deg); }
+    header .header-flex-item .change-bg {
+      width: 520px;
+      height: 460px;
+      transform: translate(-60%, -30%); } }
+  header .header-logo {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    color: #192252;
+    line-height: 39px; }
+    header .header-logo:hover {
+      color: #FF620A; }
+  header .header-menu {
+    max-width: 273px;
+    margin-top: 19px; }
+    header .header-menu ul {
+      display: flex; }
+      header .header-menu ul li {
+        margin-right: 32px; }
+        header .header-menu ul li a {
+          color: #192252;
+          font-family: "Inter", sans-serif;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 19px; }
+          header .header-menu ul li a:hover {
+            color: #FF620A; }
+        header .header-menu ul li:last-child {
+          margin-right: 0; }
+  header .header-button {
+    padding: 14px 16px;
+    background-color: #0E1734;
+    border-radius: 4px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    line-height: 19px; }
+    header .header-button:hover {
+      background-color: #FF620A; }
+
+.comments-section {
+  max-width: 1440px;
+  max-height: 627px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center; }
+  @media (max-width: 1440px) {
+    .comments-section {
+      max-width: 970px; } }
+  @media (max-width: 768px) {
+    .comments-section {
+      max-width: 550px;
+      max-height: 767px; } }
+  @media (max-width: 576px) {
+    .comments-section {
+      max-width: none;
+      max-height: 827px; } }
+  .comments-section .comments {
+    max-width: 793px;
+    max-height: 467px;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 80px; }
+    @media (max-width: 992px) {
+      .comments-section .comments {
+        margin-top: 40px;
+        margin-bottom: 40px; } }
+    @media (max-width: 768px) {
+      .comments-section .comments {
+        max-width: 500px;
+        max-height: 627px; } }
+    @media (max-width: 576px) {
+      .comments-section .comments {
+        max-width: 280px;
+        max-height: 727px; } }
+  .comments-section .comments-title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #192252;
+    margin-bottom: 40px; }
+  .comments-section .comments-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 120px;
+    height: 120px;
+    margin-bottom: 44px; }
+  .comments-section .person-comment {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #848FAC;
+    margin-bottom: 30px; }
+    @media (max-width: 992px) {
+      .comments-section .person-comment {
+        max-width: 500px;
+        margin: 0 auto; } }
+    @media (max-width: 768px) {
+      .comments-section .person-comment {
+        max-width: 450px; } }
+  .comments-section .person-name {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    margin-bottom: 35px; }
+    @media (max-width: 992px) {
+      .comments-section .person-name {
+        margin-top: 20px; } }
+
+/*# sourceMappingURL=comments.css.map */

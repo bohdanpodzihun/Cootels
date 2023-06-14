@@ -1,0 +1,98 @@
+@import "header.scss";
+
+.comments-section {
+    max-width: 1440px;
+    max-height: 627px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+
+    @media (max-width:1440px) {
+        max-width: 970px;
+    }
+
+    @media (max-width:768px) {
+        max-width: 550px;
+        max-height: 767px;
+    }
+
+    @media (max-width:576px) {
+        max-width: none;
+        max-height: 827px;
+    }
+
+    .comments {
+        max-width: 793px;
+        max-height: 467px;
+        margin: 0 auto;
+        margin-top: 80px;
+        margin-bottom: 80px;
+
+        @media (max-width:992px) {
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+
+        @media (max-width:768px) {
+            max-width: 500px;
+            max-height: 627px;
+        }
+
+        @media (max-width:576px) {
+            max-width: 280px;
+            max-height: 727px;
+        }
+    }
+
+    .comments-title {
+        font-family: $font-montserrat;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 150%;
+        text-align: center;
+        letter-spacing: -0.01em;
+        color: $text-color;
+        margin-bottom: 40px;
+    }
+
+    .comments-img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 120px;
+        height: 120px;
+        margin-bottom: 44px;
+    }
+
+    .person-comment {
+        font-family: $font-inter;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 150%;
+        text-align: center;
+        color: #848FAC;
+        margin-bottom: 30px;
+
+        @media (max-width:992px) {
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        @media (max-width:768px) {
+            max-width: 450px;
+        }
+    }
+
+    .person-name {
+        font-family: $font-inter;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 150%;
+        text-align: center;
+        margin-bottom: 35px;
+
+        @media (max-width:992px) {
+            margin-top: 20px;
+        }
+    }
+}

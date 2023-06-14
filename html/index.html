@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>Cootels</title>
+</head>
+
+<body>
+    <header id="start">
+        <div class="header">
+            <div class="header-flex">
+                <div class="header-flex-item">
+                    <a class="header-logo" href="#">Cootels</a>
+                </div>
+                <div class="header-flex-item">
+                    <menu class="header-menu">
+                        <ul>
+                            <li><a href="#rooms">Rooms</a></li>
+                            <li><a href="#reservation">Reservation</a></li>
+                            <li><a href="#contacts">Contacts</a></li>
+                        </ul>
+                    </menu>
+                    <div id="menu">
+                        <div id="menu-bar" onclick="menuOnClick()">
+                            <div id="bar1" class="bar"></div>
+                            <div id="bar2" class="bar"></div>
+                            <div id="bar3" class="bar"></div>
+                        </div>
+                        <nav class="nav" id="nav">
+                            <ul>
+                                <li><a href="#rooms">Rooms</a></li>
+                                <li><a href="#reservation">Reservation</a></li>
+                                <li><a href="#contacts">Contacts</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <div class="menu-bg" id="menu-bg"></div>
+                </div>
+                <div class="header-flex-item">
+                    <button id="call" class="header-button">Get Started</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero-section">
+        <div class="hero">
+            <div class="hero-flex">
+                <div class="hero-flex-item">
+                    <h1 class="hero-title">Nature, Warmth, and Beauty in One Space</h1>
+                    <p class="hero-text">One place to release all the stress, bring back happines, and get back to
+                        nature. We provide the best room and nature for you. Come visit us anytime you want.</p>
+                    <button id="call" class="hero-button">Reservation</button>
+                </div>
+                <div class="hero-flex-item">
+                    <div>
+                        <img src="../img/house_1.png" alt="house_1">
+                    </div>
+                    <div>
+                        <img src="../img/house_2.png" alt="house_2">
+                    </div>
+                    <div>
+                        <img src="../img/house_3.png" alt="house_3">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-us-section">
+        <div class="about-us">
+            <div class="about-us-flex">
+                <div class="about-us-flex-item">
+                    <img src="../img/wood-image.png" alt="wood-house" class="about-us-img">
+                </div>
+                <div class="about-us-flex-item">
+                    <h2 class="about-us-title">Cozy and Down to Earth Cootage Hotel in Norway.</h2>
+                    <p class="about-us-text-one">Our Cootage Hotel is an intimate hideway concieved for dicerning
+                        travelers. It faces directly the unique and spectacular panorama of the Hallerbos Jungle.</p>
+                    <p class="about-us-text-two">Cootels extends along a private, quiet, and beautiful nature. Stay away
+                        from crowd and enjoy the cozy and beauty with us.</p>
+                    <button id="call" class="about-us-button">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="benefit-section">
+        <div class="benefit">
+            <div class="benefit-flex-up">
+                <div class="benefit-flex-up-item">
+                    <h2 class="benefit-title">Cabin Activities</h2>
+                    <p class="benefit-text">Don’t worry to get bored easily in our cabin. We have so many cabin
+                        activities for you to do it alone or with group. Maybe this is the best chance for you to make
+                        new friends or even a lover.</p>
+                </div>
+                <div class="benefit-flex-up-item">
+                    <img src="../img/activities.png" alt="activities" class="benefit-activities-img">
+                </div>
+            </div>
+            <div class="benefit-flex-down">
+                <div class="benefit-flex-down-item">
+                    <img src="../img/food.png" alt="food" class="benefit-food-img">
+                </div>
+                <div class="benefit-flex-down-item">
+                    <h2 class="benefit-title">100% Organic Food</h2>
+                    <p class="benefit-text">We served 100% organic, low process and delicious food. We allow our guest
+                        to have breakfast or dinner request.What ever made your taste buds happy.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="reservation-section">
+        <div id="rooms" class="reservation">
+            <h2 class="reservation-title">Many Rooms to Choose</h2>
+            <p class="reservation-text">There is a room for every needs. We have room for individuals until family size,
+                we also have a cabin for more private experience</p>
+            <button id="call" class="reservation-button">Explore more</button>
+            <div class="reservation-flex">
+                <div class="reservation-flex-item">
+                    <div class="reservation-image-container">
+                        <img src="../img/single-room.png" alt="room-img" class="room-img">
+                    </div>
+                    <h3 class="reservation-item-title">Single Room</h3>
+                    <p class="reservation-item-text">Best for a brave lone wolf who need comfort and quiet quality time,
+                        but you still have a chance to meet others</p>
+                    <button class="reservation-item-button">
+                        <p class="reservation-item-button-text">Learn more</p>
+                        <img src="../img/Arrow_Right.png" alt="arrow-right" class="reservation-item-button-img">
+                    </button>
+                </div>
+                <div class="reservation-flex-item">
+                    <div class="reservation-image-container">
+                        <img src="../img/double-room.png" alt="room-img" class="room-img">
+                    </div>
+                    <h3 class="reservation-item-title">Double Room</h3>
+                    <p class="reservation-item-text">Best for couple, seek happiness in intimacy without worry of being
+                        disturbed. Feel the whole world just for you two</p>
+                    <button class="reservation-item-button">
+                        <p class="reservation-item-button-text">Learn more</p>
+                        <img src="../img/Arrow_Right.png" alt="arrow-right" class="reservation-item-button-img">
+                    </button>
+                </div>
+                <div class="reservation-flex-item">
+                    <div class="reservation-image-container">
+                        <img src="../img/cootage.png" alt="room-img" class="room-img">
+                    </div>
+                    <h3 class="reservation-item-title">Cootage</h3>
+                    <p class="reservation-item-text">Best for family or group. One cootage can fit up to 5 people. Made
+                        stronger bond with your family or friends</p>
+                    <button class="reservation-item-button">
+                        <p class="reservation-item-button-text">Learn more</p>
+                        <img src="../img/Arrow_Right.png" alt="arrow-right" class="reservation-item-button-img">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="reservation" class="how-to-get-room-section">
+        <div class="how-to-get-room">
+            <div class="how-to-get-room-flex">
+                <div class="how-to-get-room-flex-item">
+                    <h3 class="how-to-get-room-small-title">Start your journey!</h3>
+                    <h2 class="how-to-get-room-title">How to Get My Room?</h2>
+                    <p class="how-to-get-room-text">You can contact us by phone or email us. Easily tap the contact
+                        button below and it will take you to our contact point</p>
+                    <div class="how-to-get-room-btns">
+                        <div class="btns-flex">
+                            <div class="btns-flex-item">
+                                <button id="call" class="btn-colored">Contact us</button>
+                            </div>
+                            <div class="btns-flex-item">
+                                <a href="tel:555222333" class="btn-link">Explore more room</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="how-to-get-room-flex-item">
+                    <div class="btns-more">
+                        <div class="btn-more-card">
+                            <div class="btn-more-card-upper">
+                                <h2 class="btn-more-title">1. Choose a room and date</h2>
+                                <button class="button-more">
+                                    <div class="button-more-img"></div>
+                                </button>
+                            </div>
+                            <p class="btn-more-text">Contact us via phone or email, ask for availability of you choice
+                                of room. We might offer you something exciting.</p>
+                        </div>
+                        <div class="btn-more-card">
+                            <div class="btn-more-card-upper">
+                                <h2 class="btn-more-title">2. Check for room availability</h2>
+                                <button class="button-more">
+                                    <div class="button-more-img"></div>
+                                </button>
+                            </div>
+                            <p class="btn-more-text">Contact us via phone or email, ask for availability of you choice
+                                of room. We might offer you something exciting.</p>
+                        </div>
+                        <div class="btn-more-card">
+                            <div class="btn-more-card-upper">
+                                <h2 class="btn-more-title">3. Enjoy your room</h2>
+                                <button class="button-more">
+                                    <div class="button-more-img"></div>
+                                </button>
+                            </div>
+                            <p class="btn-more-text">Contact us via phone or email, ask for availability of you choice
+                                of room. We might offer you something exciting.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="comments-section">
+        <div class="comments">
+            <h2 class="comments-title">Hear From Our Happy Customers</h2>
+            <swiper-container class="mySwiper" pagination="true" pagination-dynamic-bullets="true">
+                <swiper-slide>
+                    <img src="../img/person_1.png" alt="person" class="comments-img">
+                    <p class="person-comment">“Great service, great food, great people. The scenery is also beautiful,
+                        you can do so much activity even with your famility. Worth every penny! you should come and see
+                        for your self. 5 out of 5! the waffle is great!”</p>
+                    <h3 class="person-name">Kirana Dunham</h3>
+                </swiper-slide>
+                <swiper-slide>
+                    <img src="../img/person_2.png" alt="person" class="comments-img">
+                    <p class="person-comment">“The spa services were incredibly relaxing, and the skilled therapists
+                        knew exactly how to melt away all my stress. The food at the on-site restaurant was a true
+                        culinary delight, offering a wide variety of delectable dishes that catered to all dietary
+                        preferences.”</p>
+                    <h3 class="person-name">Elizabeth Martex</h3>
+                </swiper-slide>
+                <swiper-slide>
+                    <img src="../img/person_3.png" alt="person" class="comments-img">
+                    <p class="person-comment">“I recently visited this wonderful retreat and it exceeded all my
+                        expectations! From the moment I arrived, I was greeted by the friendly staff who made me feel
+                        right at home. The facilities were top-notch, with luxurious accommodations and breathtaking
+                        views of the surrounding nature.”</p>
+                    <h3 class="person-name">Victor Adamson</h3>
+                </swiper-slide>
+                <swiper-slide>
+                    <img src="../img/person_4.png" alt="person" class="comments-img">
+                    <p class="person-comment">“ This place truly provided the perfect escape from the hustle and bustle
+                        of everyday life. I highly recommend it to anyone in need of rejuvenation and tranquility. I
+                        can't wait to return to this little slice of paradise!”</p>
+                    <h3 class="person-name">Mario Martinez</h3>
+                </swiper-slide>
+                <swiper-slide>
+                    <img src="../img/person_5.png" alt="person" class="comments-img">
+                    <p class="person-comment">“I recently had the pleasure of visiting this delightful retreat, and I
+                        must say, it exceeded all my expectations! From the moment I arrived, the staff went above and
+                        beyond to ensure that my stay was nothing short of perfect.”</p>
+                    <h3 class="person-name">Antonio Versetti</h3>
+                </swiper-slide>
+            </swiper-container>
+        </div>
+    </section>
+
+    <footer class="footer-section">
+        <div id="contacts" class="footer-block">
+            <div class="footer-flex">
+                <div class="footer-flex-item">
+                    <a class="footer-logo" href="#start">Cootels</a>
+                    <p class="footer-text">Your Best Private Hideway From Crowd. Back to Nature.</p>
+                    <div class="footer-media-flex">
+                        <div class="footer-media-flex-item">
+                            <a href="https://twitter.com/?lang=uk" target="_blank" class="sotial-media"><img
+                                    src="../img/twitter.png" alt="twitter" class="footer-media-img"></a>
+                        </div>
+                        <div class="footer-media-flex-item">
+                            <a href="https://www.instagram.com/" target="_blank" class="sotial-media"><img
+                                    src="../img/instagram.png" alt="instagram" class="footer-media-img"></a>
+                        </div>
+                        <div class="footer-media-flex-item">
+                            <a href="https://uk-ua.facebook.com/" target="_blank" class="sotial-media"><img
+                                    src="../img/facebook.png" alt="facebook" class="footer-media-img"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-flex-item">
+                    <div class="footer-right-flex">
+                        <div class="footer-right-flex-item">
+                            <ul>
+                                <li><a class="footer-right-menu-title" href="#rooms">Rooms</a></li>
+                                <li><a href="#rooms" class="footer-menu">Single Room</a></li>
+                                <li><a href="#rooms" class="footer-menu">Double Room</a></li>
+                                <li><a href="#rooms" class="footer-menu">Cabin</a></li>
+                                <li><a href="#rooms" class="footer-menu">Custom Room</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-right-flex-item">
+                            <ul>
+                                <li><a class="footer-right-menu-title" href="#reservation">Reservation</a></li>
+                                <li><a href="#reservation" class="footer-menu">See the Steps</a></li>
+                                <li><a href="#reservation" class="footer-menu">Best Time</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-right-flex-item">
+                            <ul>
+                                <li><a class="footer-right-menu-title" href="#">Contact</a></li>
+                                <li><a href="tel:555222333" class="footer-menu">Our Number</a></li>
+                                <li><a href="mailto:somemail@hotmail.com" class="footer-menu">Our Email</a></li>
+                                <li><a href="https://goo.gl/maps/3Xhx4wQuYqCL3amcA" target="_blank"
+                                        class="footer-menu">Our Location</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+</body>
+
+</html>
